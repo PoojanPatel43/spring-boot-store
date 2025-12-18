@@ -1,0 +1,10 @@
+package com.poojanpatel.store.dtos;
+
+import lombok.Data;
+
+@Data
+public class CartProductDto {
+    private Long id;
+    private String name;
+    private double price;
+}
